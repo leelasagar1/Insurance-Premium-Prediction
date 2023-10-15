@@ -120,7 +120,7 @@ class DataValidation:
             
             #base data
             base_df = pd.read_csv(self.data_validation_config.base_file_path)
-            base_df.replace({'na',np.NAN},inplace=True)
+            base_df.replace({'na':np.NAN},inplace=True)
             base_df = self.drop_missing_values_columns(base_df,report_key_name='Missing_values_within_base_dataset')
 
             #train data

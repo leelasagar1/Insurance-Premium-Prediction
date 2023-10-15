@@ -1,5 +1,5 @@
 Missing_values_within_base_dataset: []
-data_drift_within_test_daataset:
+data_drift_within_test_dataset:
   age:
     pvalues: 1.0
     same_distribution: true
@@ -21,7 +21,7 @@ data_drift_within_test_daataset:
   smoker:
     pvalues: 1.0
     same_distribution: true
-data_drift_within_train_daataset:
+data_drift_within_train_dataset:
   age:
     pvalues: 1.0
     same_distribution: true
