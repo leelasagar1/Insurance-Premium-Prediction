@@ -1,0 +1,45 @@
+Missing_values_within_base_dataset: []
+data_drift_within_test_daataset:
+  age:
+    pvalues: 1.0
+    same_distribution: true
+  bmi:
+    pvalues: 1.0
+    same_distribution: true
+  children:
+    pvalues: 1.0
+    same_distribution: true
+  expenses:
+    pvalues: 1.0
+    same_distribution: true
+  region:
+    pvalues: 1.0
+    same_distribution: true
+  sex:
+    pvalues: 1.0
+    same_distribution: true
+  smoker:
+    pvalues: 1.0
+    same_distribution: true
+data_drift_within_train_daataset:
+  age:
+    pvalues: 1.0
+    same_distribution: true
+  bmi:
+    pvalues: 1.0
+    same_distribution: true
+  children:
+    pvalues: 1.0
+    same_distribution: true
+  expenses:
+    pvalues: 1.0
+    same_distribution: true
+  region:
+    pvalues: 1.0
+    same_distribution: true
+  sex:
+    pvalues: 1.0
+    same_distribution: true
+  smoker:
+    pvalues: 1.0
+    same_distribution: true
